@@ -63,10 +63,10 @@ Shared модуль
 Добавить PermissionCheck, вместо захардкоженной кнопки
 
 ##Скриншоты
-<img src="/assets/client_1.jpg" width="800"/>
-<img src="/assets/client_2.jpg" width="800"/>
-<img src="/assets/client_3.jpg" width="800"/>
-<img src="/assets/server_1.jpg" width="800"/>
+<img src="/assets/client_1.jpg" width="300"/>
+<img src="/assets/client_2.jpg" width="300"/>
+<img src="/assets/client_3.jpg" width="300"/>
+<img src="/assets/server_1.jpg" width="300"/>
 
 
 
