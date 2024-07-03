@@ -22,9 +22,54 @@
 
 ## Сервер Архитектура, зависимости модулей
 <img src="/assets/server_serverarch.png" width="1080"/>
+- :server:domain
+Содержит:
+ - manager - интерфейсы для работы с памятью, архивацией, сканирование.
+ - interactor - интерфейс отвечающий за управлением сервером
+ - repository - интерфейс дял работы с данными
+- :server:data:repository
+Содержит:
+ - Impl репозитория
+ - datasource абстракция источника дпнных
+ - свои модели
+- :server:data:local
+Содержит:
+ - свои модели данных
+ - Impl datasource
+ - dao
+ - Room db инициализация
+- :server:data:archiving
+  Содержит
+ - Реализует ArchiveManager
+- :data:scaning
+ - Реализует ScanManager
+- :server:data:memory
+ -Реализует MemoryManager
 
 ## Сервер Архитектура, зависимости модулей
 <img src="/assets/client_arch.png" width="1080"/>
+- :client:domain 
+Содержит:
+ 
+ - repository - общий репозиторий
+- :client:data:repository
+Содержит:
+ - Impl репозитория
+ - datasource абстракция источника дпнных
+ - свои модели
+- :client:data:network
+Содержит:
+ - свои модели данных
+ - Impl datasource
+ - Подключению к соккету
+- :client:features:config
+  Содержит
+ - Экран для подключения, отслеживания данных с сервера, viewmodel
+ - свои модели
+- :client:features:scanlist
+ - Экран со всеми сканами.
+
+
 
 
 
