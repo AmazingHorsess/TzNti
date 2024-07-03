@@ -23,17 +23,17 @@
 ## Сервер Архитектура, зависимости модулей
 
 Модуль	Описание
-:server
+:server:domain
 <br><br> • manager - интерфейсы для работы с памятью, архивацией, сканированием.<br> • interactor - интерфейс, отвечающий за управление сервером.<br> • repository - интерфейс для работы с данными.	
-:server:data
+:server:data:repository
 <br><br> • Impl - реализация репозитория.<br> • datasource - абстракция источника данных.<br> • модели - свои модели данных.	
-:server:data
+:server:data:local
 <br><br> • модели данных - свои модели данных.<br> • Impl datasource - реализация источника данных.<br> • dao - объекты доступа к данным.<br> • Room db инициализация - инициализация базы данных Room.	
-:server:data
+:server:data:archicing
 <br><br> • ArchiveManager - реализация менеджера архивации.	
-:data
+:data:scanning
 <br><br> • ScanManager - реализация менеджера сканирования.	
-:server:data
+:server:data:memory
 <br><br> • MemoryManager - реализация менеджера памяти.	
 
 
