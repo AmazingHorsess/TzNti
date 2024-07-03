@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/client" />
+            <option value="$PROJECT_DIR$/client/client-app" />
+            <option value="$PROJECT_DIR$/client/data" />
+            <option value="$PROJECT_DIR$/client/data/network" />
+            <option value="$PROJECT_DIR$/client/data/repository" />
+            <option value="$PROJECT_DIR$/client/domain" />
+            <option value="$PROJECT_DIR$/client/features" />
+            <option value="$PROJECT_DIR$/client/features/config" />
+            <option value="$PROJECT_DIR$/client/features/scanlist" />
+            <option value="$PROJECT_DIR$/libraries" />
+            <option value="$PROJECT_DIR$/libraries/designsystem" />
+            <option value="$PROJECT_DIR$/libraries/navigation" />
+            <option value="$PROJECT_DIR$/server" />
+            <option value="$PROJECT_DIR$/server/data" />
+            <option value="$PROJECT_DIR$/server/data/archiving" />
+            <option value="$PROJECT_DIR$/server/data/local" />
+            <option value="$PROJECT_DIR$/server/data/memory" />
+            <option value="$PROJECT_DIR$/server/data/network" />
+            <option value="$PROJECT_DIR$/server/data/repository" />
+            <option value="$PROJECT_DIR$/server/data/scanning" />
+            <option value="$PROJECT_DIR$/server/domain" />
+            <option value="$PROJECT_DIR$/server/features" />
+            <option value="$PROJECT_DIR$/server/features/main" />
+            <option value="$PROJECT_DIR$/server/server-app" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
