@@ -22,30 +22,34 @@
 
 ## Сервер Архитектура, зависимости модулей
 <img src="/assets/server_serverarch.png" width="1080"/>
-- :server:domain
+:server:serverapp
+Содержит
+Инициализацию koin,
+:server:domain
 Содержит:
-  manager - интерфейсы для работы с памятью, архивацией, сканирование.
-  interactor - интерфейс отвечающий за управлением сервером
-  repository - интерфейс дял работы с данными
- :server:data:repository
+manager - интерфейсы для работы с памятью, архивацией, сканированием.
+interactor - интерфейс, отвечающий за управление сервером.
+repository - интерфейс для работы с данными.
+:server:data:repository
 Содержит:
-  Impl репозитория
-  datasource абстракция источника дпнных
-  свои модели
- :server:data:local
+Impl - реализация репозитория.
+datasource - абстракция источника данных.
+модели - свои модели данных.
+:server:data:local
 Содержит:
-  свои модели данных
-  Impl datasource
-  dao
-  Room db инициализация
- :server:data:archiving
-  Содержит
-  Реализует ArchiveManager
- :data:scaning
-  Реализует ScanManager
- :server:data:memory
- -Реализует MemoryManager
-
+модели данных - свои модели данных.
+Impl datasource - реализация источника данных.
+dao - объекты доступа к данным.
+Room db инициализация - инициализация базы данных Room.
+:server:data:archiving
+Содержит:
+ArchiveManager - реализация менеджера архивации.
+:server:data:scanning
+Содержит:
+ScanManager - реализация менеджера сканирования.
+:server:data:memory
+Содержит:
+MemoryManager - реализация менеджера отслеживания памяти.
 ## Сервер Архитектура, зависимости модулей
 <img src="/assets/client_arch.png" width="1080"/>
 - :client:domain 
