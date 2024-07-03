@@ -22,7 +22,7 @@
 
 ## Сервер Архитектура, зависимости модулей
 <img src="/assets/server_serverarch.png" width="1080"/>
-:server:serverapp
+- :server:serverapp
 Содержит
 Инициализацию koin,
 :server:domain
