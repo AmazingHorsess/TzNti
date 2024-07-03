@@ -62,5 +62,16 @@ WebSocketWrapper что бы удобнее отправлять/слушать 
 Shared модуль
 Добавить PermissionCheck, вместо захардкоженной кнопки
 
+##Скриншоты
+<img src="/assets/client_1.png" width="800"/>
+<img src="/assets/client_2.png" width="800"/>
+<img src="/assets/client_3.png" width="800"/>
+<img src="/assets/server_1.png" width="800"/>
+
+
+
+
+
+
 
 
